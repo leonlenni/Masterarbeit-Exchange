@@ -1,0 +1,31 @@
+
+DETECTION REPORT
+============================================================
+
+IoU Threshold: 0.50
+Transects evaluated (GT and Pred both present): 3
+
+GLOBAL (MICRO)
+------------------------------------------------------------
+TP: 191
+FP: 21
+FN: 72
+Precision: 0.9009
+Recall: 0.7262
+F1-score: 0.8042
+Mean IoU: 0.7246
+
+MACRO (average across transects)
+------------------------------------------------------------
+Precision: 0.8998
+Recall: 0.7676
+F1-score: 0.8241
+Mean IoU: 0.7250
+
+PER-TRANSECT METRICS (sorted by F1, descending)
+============================================================
+    Transect    TP    FP    FN Precision    Recall        F1   MeanIoU
+----------------------------------------------------------------------
+          93    49     3     2    0.9423    0.9608    0.9515    0.7637
+          74    90     8    45    0.9184    0.6667    0.7725    0.7261
+          81    52    10    25    0.8387    0.6753    0.7482    0.6852
